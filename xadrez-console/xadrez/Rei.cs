@@ -98,7 +98,7 @@ namespace xadrez
                 {
                     Posicao p1 = new Posicao(posicao.linha, posicao.coluna + 1);
                     Posicao p2 = new Posicao(posicao.linha, posicao.coluna + 2);
-                    if (tab.peca(p1) == null && tab.peca(p2) == null)
+                    if (tab.peca(p1) == null && tab.peca(p2) == null) 
                     {
                         mat[posicao.linha, posicao.coluna + 2] = true;
                     }
