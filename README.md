@@ -1,0 +1,1 @@
+# Plataforma de xadrez criado para aprendizado de orientação a objetos em C#
